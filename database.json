@@ -1,67 +1,108 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "name": "Fido",
-            "breed": "Beagle",
-            "customerId": 2,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "name": "Grayson",
-            "breed": "Husky",
-            "customerId": 3,
-            "locationId": 1
-        },
-        {
-            "id": 4,
-            "name": "Ymir",
-            "breed": "Lab",
-            "customerId": 4,
-            "locationId": 2
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Sydney Noh",
-            "address": "976 Software School Rd."
-        },
-        {
-            "id": 2,
-            "name": "Trevor Guinn",
-            "address": "123 NSS Ln"
-        },
-        {
-            "id": 3,
-            "name": "Jaime Foster",
-            "address": "420 April Dr"
-        },
-        {
-            "id": 4,
-            "name": "April Kepner",
-            "address": "360 Circle Loop"
-        }
-    ],
-    "employees": [],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
-  }
+  "animals": [
+    {
+        "id": 1,
+        "name": "Doodles",
+        "breed": "Poodle",
+        "customerId": 1,
+        "locationId": 2
+    },
+    {
+        "id": 2,
+        "name": "Fido",
+        "breed": "Beagle",
+        "customerId": 2,
+        "locationId": 1
+    },
+    {
+        "id": 3,
+        "name": "Grayson",
+        "breed": "Husky",
+        "customerId": 3,
+        "locationId": 1
+    },
+    {
+        "id": 4,
+        "name": "Ymir",
+        "breed": "Lab",
+        "customerId": 4,
+        "locationId": 2
+    }
+  ],
+  "customers": [
+    {
+        "id": 1,
+        "name": "Sydney Noh",
+        "address": "976 Software School Rd."
+    },
+    {
+      "id": 2,
+      "name": "Trevor Guinn",
+      "address": "123 NSS Ln",
+      "phone": "615-555-7159",
+      "animalId": 2
+    },
+    {
+      "id": 3,
+      "name": "Jaime Foster",
+      "address": "436 April Dr",
+      "phone": "615-555-8612",
+      "animalId": 3
+    },
+    {
+        "id": 4,
+        "name": "April Kepner",
+        "address": "19 Mainland st",
+        "phone": "615-555-8612",
+        "animalId": 4
+      }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jessica Jones",
+      "workplace": "Nashville Kennels North"
+    },
+    {
+      "id": 2,
+      "name": "Helena Cross",
+      "workplace": "Nashville Kennels North"
+    },
+    {
+      "id": 3,
+      "name": "Nick Sharp",
+      "workplace": "Nashville Kennels South"
+    },
+    {
+      "id": 4,
+      "name": "Michael Jackson",
+      "workplace": "Nashville Kennels South"
+    }
+  ],
+  "Owners": [
+    {
+      "id": 1,
+      "name": "Neicey Jackson",
+      "property": "Nashville Kennels North"
+    },
+    {
+      "id": 2,
+      "name": "Max Ross",
+      "property": "Nashville Kennels South"
+    }
+  ],
+  "locations": [
+    {
+        "id": 1,
+        "name": "Nashville North",
+        "address": "8422 Johnson Pike",
+        "phone": "615-555-1234"
+    },
+    {
+        "id": 2,
+        "name": "Nashville South",
+        "address": "209 Emory Drive",
+        "phone": "615-555-5678"
+    }
+  ]
+}
