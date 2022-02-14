@@ -33,13 +33,17 @@
     {
         "id": 1,
         "name": "Sydney Noh",
-        "address": "976 Software School Rd."
+        "address": "976 Software School Rd.",
+        "phone": "615-555-0369",
+        "email": "queenOfCats@email.com",
+        "animalId": 1
     },
     {
       "id": 2,
       "name": "Trevor Guinn",
       "address": "123 NSS Ln",
       "phone": "615-555-7159",
+      "email": "locAndKey@email.com",
       "animalId": 2
     },
     {
@@ -47,6 +51,7 @@
       "name": "Jaime Foster",
       "address": "436 April Dr",
       "phone": "615-555-8612",
+      "email": "jFoster@email.com",
       "animalId": 3
     },
     {
@@ -54,6 +59,7 @@
         "name": "April Kepner",
         "address": "19 Mainland st",
         "phone": "615-555-8612",
+      "email": "aKepnery@email.com",
         "animalId": 4
       }
   ],
